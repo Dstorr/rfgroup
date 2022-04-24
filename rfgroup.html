@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>RF Group</title>
+
+    <style>
+        body {
+            background-color: rgb(65, 59, 59);
+            color: white;
+        }
+
+        li a {
+            font-size: x-large;
+            text-decoration: none;
+            color: white;
+            border-bottom: 6px solid white;
+            padding-bottom: 5px;
+        }
+
+        li a:hover {
+            color: black;
+            box-shadow: none;
+            border-bottom: 6px solid black;
+            text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+        }
+
+        ul {
+            position: center;
+            list-style-type: none;
+            display: inline;
+        }
+
+        li {
+            float: left;
+            padding-top: 1%;
+            padding-left: 1%;
+
+        }
+
+        div.btn1 {
+            text-align: center;
+            font-size: x-large;
+            color: black;
+            background-color: white;
+            border: solid;
+            border-width: 5px;
+            border-color: black;
+            padding: 0.3%;
+            width: 80px;
+            height: 30px;
+            margin-left: 89%;
+            border-radius: 5%;
+            display: inline;
+            padding-top: 0.1%;
+        }
+
+        div.btn1:hover {
+            background-color: black;
+            color: white;
+            border-width: 5px;
+            border-color: white;
+            cursor: pointer;
+        }
+
+        div.coinSec {
+            background-color: grey;
+            width: 100.2%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Coins</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+                <div class="btn1"><strong>Login In</strong></div>
+            </li>
+        </ul>
+    </nav>
+
+<div class="coinSec">
+    <h1 style="text-align: center;">BUY & SELL CRYPTO</h1>
+    <p style="text-align: center;">Check out our list of coins</p>
+
+    <div class="coin-list">
+        <div class="coin">
+            <div>
+                <p>Bitcoin</p>
+                <h3>$<span id="bitcoin"></span></h3>
+            </div>
+        </div>
+        <div class="coin">
+            <div>
+                <p>Ethereum</p>
+                <h3>$<span id="ethereum"></span></h3>
+            </div>
+        </div>
+        <div class="coin">
+            <div>
+                <p>Litecoin</p>
+                <h3>$<span id="litecoin"></span></h3>
+            </div>
+        </div>
+        <div class="coin">
+            <div>
+                <p>Tether</p>
+                <h3>$<span id="tether"></span></h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <script src="script.js">
+
+ </script>
+</body>
+</html>
